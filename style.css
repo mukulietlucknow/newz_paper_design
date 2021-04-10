@@ -1,0 +1,56 @@
+#top_date {
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#top_heading {
+  text-align: right;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div#newspaper_heading {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  height: 40px;
+}
+
+div#newspaper_heading > .align-middle > p{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+#newspaper_main_heading > div > p{
+    font-size: 110px;
+    font-weight: bold;
+    position: relative;
+    top : -20px;
+}
+
+.badge_new{
+    border-bottom: 25px solid brown;
+	border-right: 5px solid transparent;
+	height: 0;
+	width: 100px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.news_heading{
+    font-size: 18px;
+}
+
+.badge_position{
+    position: relative;
+    top: 10px;
+}
+
+.red_heading{
+    font-size: 25px;
+    color: brown;
+    font-weight: bold;
+    
+}
